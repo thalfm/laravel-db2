@@ -1,21 +1,21 @@
 <?php
 
-namespace Cooperl\Database\DB2;
+namespace Thalfm\Database\DB2;
 
-use Cooperl\Database\DB2\Query\Processors\DB2ZOSProcessor;
+use Thalfm\Database\DB2\Query\Processors\DB2ZOSProcessor;
 use PDO;
 
 use Illuminate\Database\Connection;
 
-use Cooperl\Database\DB2\Schema\Builder;
-use Cooperl\Database\DB2\Query\Processors\DB2Processor;
-use Cooperl\Database\DB2\Query\Grammars\DB2Grammar as QueryGrammar;
-use Cooperl\Database\DB2\Schema\Grammars\DB2Grammar as SchemaGrammar;
+use Thalfm\Database\DB2\Schema\Builder;
+use Thalfm\Database\DB2\Query\Processors\DB2Processor;
+use Thalfm\Database\DB2\Query\Grammars\DB2Grammar as QueryGrammar;
+use Thalfm\Database\DB2\Schema\Grammars\DB2Grammar as SchemaGrammar;
 
 /**
  * Class DB2Connection
  *
- * @package Cooperl\Database\DB2
+ * @package Thalfm\Database\DB2
  */
 class DB2Connection extends Connection
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Cooperl\Database\DB2\Connectors;
+namespace Thalfm\Database\DB2\Connectors;
 
 /**
  * Class ODBCConnector
  *
- * @package Cooperl\Database\DB2\Connectors
+ * @package Thalfm\Database\DB2\Connectors
  */
 class ODBCConnector extends DB2Connector
 {

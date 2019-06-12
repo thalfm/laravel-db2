@@ -1,18 +1,18 @@
 <?php
 
-namespace Cooperl\Database\DB2;
+namespace Thalfm\Database\DB2;
 
 use Illuminate\Foundation\Application as LaravelApplication;
 use Laravel\Lumen\Application as LumenApplication;
-use Cooperl\Database\DB2\Connectors\ODBCConnector;
-use Cooperl\Database\DB2\Connectors\IBMConnector;
-use Cooperl\Database\DB2\Connectors\ODBCZOSConnector;
+use Thalfm\Database\DB2\Connectors\ODBCConnector;
+use Thalfm\Database\DB2\Connectors\IBMConnector;
+use Thalfm\Database\DB2\Connectors\ODBCZOSConnector;
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class DB2ServiceProvider
  *
- * @package Cooperl\Database\DB2
+ * @package Thalfm\Database\DB2
  */
 class DB2ServiceProvider extends ServiceProvider
 {
