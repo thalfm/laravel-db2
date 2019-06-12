@@ -1,6 +1,6 @@
 <?php
 
-namespace Cooperl\Database\DB2\Connectors;
+namespace Thalfm\Database\DB2\Connectors;
 
 use Illuminate\Database\Connectors\Connector;
 use Illuminate\Database\Connectors\ConnectorInterface;
@@ -8,7 +8,7 @@ use Illuminate\Database\Connectors\ConnectorInterface;
 /**
  * Class IBMConnector
  *
- * @package Cooperl\Database\DB2\Connectors
+ * @package Thalfm\Database\DB2\Connectors
  */
 class DB2Connector extends Connector implements ConnectorInterface
 {

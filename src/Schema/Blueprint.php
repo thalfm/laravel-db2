@@ -1,11 +1,11 @@
 <?php
 
-namespace Cooperl\Database\DB2\Schema;
+namespace Thalfm\Database\DB2\Schema;
 
 /**
  * Class Blueprint
  *
- * @package Cooperl\Database\DB2\Schema
+ * @package Thalfm\Database\DB2\Schema
  */
 class Blueprint extends \Illuminate\Database\Schema\Blueprint
 {

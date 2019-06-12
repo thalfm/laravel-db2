@@ -1,6 +1,6 @@
 <?php
 
-namespace Cooperl\Database\DB2\Query\Grammars;
+namespace Thalfm\Database\DB2\Query\Grammars;
 
 use Illuminate\Database\Query\Grammars\Grammar;
 use Illuminate\Database\Query\Builder;
@@ -8,7 +8,7 @@ use Illuminate\Database\Query\Builder;
 /**
  * Class DB2Grammar
  *
- * @package Cooperl\Database\DB2\Query\Grammars
+ * @package Thalfm\Database\DB2\Query\Grammars
  */
 class DB2Grammar extends Grammar
 {
